@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: none;
+}
+
+header {
+  background-color: #ffff00;
+  padding: 12px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+}
+
+.imge {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  width: 46px;
+  height: 46px;
+}
+
+.imge:hover {
+  transform: scale(1.1);
+}
+
+nav {
+
+}
+
+nav a {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 3px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f8dc07;
+}
+
+header h1 {
+  color: black;
+  font-size: 60px;
+  font-family: impact;
+  text-align: center;
+}
+
+header p {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+
+main {
+  flex: 1;
+  max-width: 1100px;
+  margin: auto;
+  padding: 12px;
+}
+
+h1 {
+
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.artigo {
+  display: flex;
+  flex: 1 1 500px;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  padding: 8px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  width: 100%;
+  transition: 0.3s;
+}
+
+.artigo:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.link2 {
+  color: gray;
+  text-decoration: none;
+  display: inline;
+}
+
+span {
+display: block;
+}
+
+.span2 {
+  display: inline;
+}
+
+.btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffff00;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 60px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #f8dc07;
+  transform: scale(1.1);
+}
+
+footer {
+  border-top: 2px solid lightgray;
+  color: black;
+  text-align: center;
+  padding: 12px;
+}
